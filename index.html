@@ -12,6 +12,50 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list fs-4"></i>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" href="#home">
+                            <i class="bi bi-house-fill me-2"></i>
+                            Início
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Serviços
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow">
+                            <li><a class="dropdown-item" href="#membership">Associação</a></li>
+                            <li><a class="dropdown-item" href="#rental">Aluguel de Espaços</a></li>
+                            <li><a class="dropdown-item" href="#events">Eventos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+                
+                <div class="d-flex">
+                    <div class="input-group search-box">
+                        <input type="search" class="form-control border-0 bg-light" placeholder="Buscar..." aria-label="Buscar">
+                        <button class="btn btn-light border-0" type="button">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <!-- Custom Visual in JavaScript -->
     <script src="visual.js"></script>
     <!-- Bootstrap JS -->
